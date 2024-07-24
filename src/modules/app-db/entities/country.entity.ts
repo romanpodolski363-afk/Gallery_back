@@ -7,7 +7,7 @@ export class Country extends BaseEntity {
   @Column('text')
   name: string;
 
-  @Column({ type: 'varchar', length: 10 })
+  @Column({ type: 'char', length: 2 })
   code: string;
 
 }
